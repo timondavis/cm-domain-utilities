@@ -1,3 +1,4 @@
 import { DomainType, DomainConverter } from "./DomainConverter";
 import { ISerializableModel, SerializableModel } from "./Serializable.model";
-export { DomainType, DomainConverter, ISerializableModel, SerializableModel, };
+import { IdentificationGenerator } from "./IdentificationGenerator";
+export { DomainType, DomainConverter, ISerializableModel, SerializableModel, IdentificationGenerator };
